@@ -30,3 +30,4 @@ List::~List(){
     last = NULL;
     first = NULL;
 }
+
