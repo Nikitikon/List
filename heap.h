@@ -18,7 +18,7 @@ private:
         {       
                 bool      used;
                 int       size;
-                void*     offset;
+                int*     offset;
         };
 
         struct Segment
@@ -31,6 +31,8 @@ private:
 
         int       make_segment();
         void      delete_segments();
+		int		  findSizeInSegment(Segment *temp, int size);
+		void	  defrag(Segment *defragSegment);
 
         int       segment_size;
 
