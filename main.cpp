@@ -6,7 +6,3 @@
 //  Copyright © 2017 Nikita-Mac. All rights reserved.
 //
 
-#include <iostream>
-#include "list.h"
-
-
